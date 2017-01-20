@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Education System in Ecuador </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="StyleDocuments/style.css">
+
+</head>
+<body>
+<!---************************* add MENU********************-->
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="#">Ecuador Education</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#Structure">Home
+            <span class="caret"></span>
+          </a>
+        </li>
+        <li><a href="../Statistics/index.html">Statistics</a></li>
+        <li><a href="../View/index.html">View</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#contact">CONTACT
+            <span class="caret"></span>
+          </a>
+        </li>
+        <li>
+          <a href="http://186.46.220.123:8080/ineval/index.jsp"><span class="glyphicon glyphicon-search"></span></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<!-- ******************Add Caroussel *******************-->
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="Pictures/educacion.jpg" alt="Introduction">
+      <div class="carousel-caption">
+        <h1>EDUCATION GEOVIEW</h1>
+        <p>A general framework of Ecuadorian reality</p>
+      </div> 
+    </div>
+
+    <div class="item">
+      <img src="Pictures/educacion1.jpg" alt="Glance in Ecuador">
+      <div class="carousel-caption">
+        <h3>Educational statistics</h3>
+        <p>Localization of schools and distribution of data can be an indicator of educational reality. </br>There are enough professors per student? See more at "STATISTICS"</p>
+      </div> 
+    </div>
+
+    <div class="item">
+      <img src="Pictures/educacion2.jpg" alt="Statistical analysis">
+      <div class="carousel-caption">
+        <h3>Factors related to education</h3>
+        <p>A wider view of education in comparison with another socioeconomic indicators. </br>"VIEW" is a tools that can help you!</p>
+      </div> 
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+  <div class="row">
+    <div class="col-sm-12">
+      <h3 class="text-center"><em>"The objective of this project is to implement  technical methods for the visualization of geographical data, to communicate a socio-spatial problem through an interactive geographical visualization page that explain a hypothesis of a selected problem."</em>.
+      </h3></br>
+    </div>
+  </div>
+
+
+<div id="Structure" class="container text-center">
+  <h2>Education System in Ecuador</h2>
+  <div class="row">
+    <div class="col-sm-12">
+      <h5 class="text-justify">The Ministerio de Educación (MINEDUC), Ministry of Education, is the body responsible for primary and secondary education in Ecuador. The Ministry designs the basic curriculum, the details of which are filled in by the various regions. The constitution and various education acts provide the legal framework for the Ecuadorian education system. The most significant acts are the new 2011 education law that sets out the reforms in primary and secondary education (Ley Orgánica de Eduación Intercultural, LOEI), in 2000 higher education act (Ley de Educación Superior, Ley No. 16. RO/77). The latter was most recently amended in 2010 in the form of the Ley Orgánica de Educación Superior (LOES), which established a national quality assurance system for higher education.
+      </h5></br>
+    </div>
+  </div>
+  </br>
+
+<!-- ADDING Collapse -->
+<!-- Source:  from http://www.classbase.com/Countries/Ecuador/Education-System -->
+<div class="row" id="collapse">
+  <div class="col-sm-3">
+    <p class="text-center"><strong>Primary Education</strong></p><br>
+    <a href="#demo" data-toggle="collapse">
+      <img src="Pictures/nursery.jpg" class="img-circle person" alt="Random Name">
+    </a>
+    <div id="demo" class="collapse">
+      <p class="text-justify">All centers of child care should accomplish quality standards of infrastructure, security and sanity, stablished in the Education Code of Development. Even, these spaces are not consider as formal education, since 2015 they are part of the public services for children since 0 to 5 years old. </p>
+    </div>
+  </div>
+  <div class="col-sm-3">
+    <p class="text-center"><strong>Secondary Education</strong></p><br>
+    <a href="#demo2" data-toggle="collapse">
+      <img src="Pictures/primary.jpg" class="img-circle person" alt="Random Name">
+    </a>
+    <div id="demo2" class="collapse">
+     <p class="text-justify">The constitution stipulates obligatory and free education until 9th grade. Although the primary school enrolment rate exceeds 95%, more than 25% of children drop out at the end of 5th grade. Approximately, there are 1,088 primary schools with an average of 1.5 teachers per school, with an average of 63 pupils through 6 grades.</p>
+    </div>
+  </div>
+  <div class="col-sm-3">
+    <p class="text-center"><strong> Secondary Education</strong></p><br>
+    <a href="#demo3" data-toggle="collapse">
+      <img src="Pictures/secundaria.jpg" class="img-circle person" alt="Random Name">
+    </a>
+    <div id="demo3" class="collapse">
+       <p class="text-justify">Attendance rate for high school is 65.1%, which means that 65 out of 100 young people on age of attending high school is studying. This rate compared with previous years declined 7 points. The six years of secondary education is divided in middle cycle of three years and diversify cycle with tecnhical specializations.</p>
+    </div>
+  </div>
+    <div class="col-sm-3">
+    <p class="text-center"><strong>Vocational Education</strong></p><br>
+    <a href="#demo4" data-toggle="collapse">
+      <img src="Pictures/vocacional.jpg" class="img-circle person" alt="Random Name">
+    </a>
+    <div id="demo4" class="collapse">
+      <p class="text-justify">In 2010 6.8% of the population was illiterate, in 2013 the rate was less than 4%. Since 2012, the legal educative framework stablish that adults with a school grade can finish their studies in a center of artesanal training. There are 700 institutes with around 70.000 students in 184 fields of study.</p>
+      
+    </div>
+  </div>
+</div>
+</div>
+
+
+<!-- ***********Add Google Maps, must change the coordinates********** -->
+
+</div>
+
+<style>
+#googleMap {
+    width: 100%; /* Span the entire width of the screen */
+    height: 400px; /* Set the height to 400 pixels */
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%); /* Change the color of the map to black and white */
+}
+</style>
+
+<!-- Add Google Maps, must change the coordinates -->
+
+<div id="googleMap"></div>
+<script src="http://maps.googleapis.com/maps/api/js"></script>
+<script>
+var myCenter = new google.maps.LatLng(-0.180653, -78.467853);
+
+function initialize() {
+var mapProp = {
+center:myCenter,
+zoom:12,
+scrollwheel:false,
+draggable:false,
+mapTypeId:google.maps.MapTypeId.ROADMAP
+};
+
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+var marker = new google.maps.Marker({
+position:myCenter,
+});
+
+marker.setMap(map);
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+
+<!-- ********************** Add Form (Contact stuff) ****************************-->
+
+<div id="contact" class="container" >
+  <h3 class="text-center">Contact</h3>
+  <p class="text-center"><em>More informations?contact us</em></p>
+  <div class="row test">
+    <div class="col-md-4">
+      <p>Contact us? Drop a note.</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span>Lausanne, CH</p>
+      <p><span class="glyphicon glyphicon-phone"></span>Phone: +41 78 772 69 64</p>
+      <p><span class="glyphicon glyphicon-envelope"></span>Email: dmarinoc@yahoo.com</p> 
+    </div>
+    <div class="col-md-8">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        </div>
+      </div>
+      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
+      <div class="row">
+        <div class="col-md-12 form-group">
+          <button class="btn pull-right" type="submit">Send</button>
+        </div>
+      </div> 
+    </div>
+  </div>
+</div>
+<!-- ********************** Scrollspy  ****************************-->
+
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+
+  // Make sure this.hash has a value before overriding default behavior
+  if (this.hash !== "") {
+
+    // Prevent default anchor click behavior
+    event.preventDefault();
+
+    // Store hash
+    var hash = this.hash;
+
+    // Using jQuery's animate() method to add smooth page scroll
+    // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+    $('html, body').animate({
+      scrollTop: $(hash).offset().top
+    }, 900, function(){
+
+      // Add hash (#) to URL when done scrolling (default click behavior)
+      window.location.hash = hash;
+      });
+    } // End if 
+  });
+})
+</script>
+
+<style>
+.bg-4 { 
+    background-color: #2f2f2f;
+    color: #ffffff;
+    padding: 20px;
+}
+</style>
+<footer class="container-fluid bg-4 text-center">
+  <p>Project developed by <a href="https://ec.linkedin.com/in/daniela-mariño-88285732">Daniela Marino</a> and <a href="https://ch.linkedin.com/in/fatima-ezzahra-barik-37051233/es">Fatima Barik</a></p> 
+</footer>
+
+</body>
+</html>
